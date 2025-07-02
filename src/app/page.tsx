@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="bg-[#2E2E2E] text-white min-h-screen">
       <NavBar></NavBar>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-25 md:px-16 py-10 ml-25">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-25 px-4 sm:px-8 md:px-16 max-w-6xl mx-auto py-10">
         <div className="flex flex-col">
           <img
             src="/photo.png"
