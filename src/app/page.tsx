@@ -1,103 +1,103 @@
-import Image from "next/image";
+import { FaGithub } from "react-icons/fa";
+import NavBar from "../../components/NavBar";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="bg-[#2E2E2E] text-white min-h-screen">
+      <NavBar></NavBar>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-25 md:px-16 py-10 ml-25">
+        <div className="flex flex-col">
+          <img
+            src="/photo.png"
+            className="w-full max-w-[200px] h-auto object-cover mt-5"/>
+          <h1 className="text-2xl font-semibold mt-3 mb-2">José Antunes - 호세 안툰스</h1>
+          <p className="text-lg">Sungkyunkwan University</p>
+          <p className="text-lg flex items-center mb-5">josemiguel@g.skku.edu</p>
+          <p className="text-base leading-relaxed">I am a Portuguese international student at Sungkyunkwan University, pursuing an undergraduate degree in Computer Science and Engineering. I am interested in web development, blockchain technologies, and AI, but I am still exploring different areas of interest. Currently an intern at {" "}
+            <a 
+              className="text-[#FFD900] hover:underline"
+              href="https://hli.skku.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >HLILab</a>.
+          </p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="flex flex-col gap-7 text-base">
+          <div>
+            <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Education</h2>
+            <p className="font-medium font-semibold">Sungkyunkwan University (Feb 2021 - Present)</p>
+            <p>B.Sc. in Computer Science and Engineering</p>
+            <p>GPA: 3.63 / 4.5</p>
+          </div>
+          <div>
+            <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Education</h2>
+            <p className="font-medium font-semibold">SKKU Tutoring Program (Mar - Jun 2025)</p>
+            <p className="mb-2">Provided one-on-one tutoring for the Java Programming Lab course.</p>
+
+            <p className="font-medium font-semibold">HLILab Summer Internship (Jul 2025 - Present)</p>
+            <p>Working on the Cultural Values of LLMs research project.</p>
+          </div>
+          <div>
+            <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Projects</h2>
+            <div className="mb-2">
+              <p>
+                <a
+                  href="https://github.com/23-jose/blockchainvisualiser"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
+                ><FaGithub /> BV - Blockchain Visualiser (Ongoing)
+                </a>
+              </p>
+              <p>
+                Created a platform for accessing Bitcoin and Ethereum transaction data and estimating energy consumption.
+              </p>
+            </div>
+            <div className="mb-2">
+              <p>
+                <a
+                  href="https://github.com/23-jose/Capstone_Team_F"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
+                ><FaGithub /> Hallyu-Go (Sep - Dec 2024)
+                </a>
+              </p>
+              <p>
+                Created a guide map application for travels exploring Korean pop culture hotspots.
+              </p>
+            </div>
+            <div className="mb-2">
+              <p>
+                <a
+                  href="https://github.com/23-jose/PoW_vs_PoS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
+                ><FaGithub /> PoW vs. PoS (Dec 2024)
+                </a>
+              </p>
+              <p>
+                Compared blockchain energy usage by analyzing CPU, memory, disk, and network traffic metrics.
+              </p>
+            </div>
+            <div className="mb-2">
+              <p>
+                <a
+                  href="https://github.com/23-jose/AnonymousACL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
+                ><FaGithub /> Anonymous ACL Submission (Nov 2023)
+                </a>
+              </p>
+              <p>
+                Simulated ACL-style paper submission and review process through AI prompt engineering activities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
