@@ -10,7 +10,7 @@ export default function Home() {
           <img
             src="/photo.png"
             className="w-full max-w-[200px] h-auto object-cover mt-5"/>
-          <h1 className="text-2xl font-semibold mt-3 mb-2">José Antunes - 호세 안툰스</h1>
+          <h1 className="text-2xl font-semibold mt-3 mb-5">José Antunes - 호세 안툰스</h1>
           <p className="text-lg">Sungkyunkwan University</p>
           <p className="text-lg flex items-center mb-5">josemiguel@g.skku.edu</p>
           <p className="text-base leading-relaxed">I am a Portuguese international student at Sungkyunkwan University, pursuing an undergraduate degree in Computer Science and Engineering. I am interested in web development, blockchain technologies, and AI, but I am still exploring different areas of interest. Currently an intern at {" "}
@@ -22,7 +22,7 @@ export default function Home() {
             >HLILab</a>.
           </p>
         </div>
-        <div className="flex flex-col gap-7 text-base">
+        <div className="flex flex-col md:gap-7 text-base">
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Education</h2>
             <p className="font-medium font-semibold">Sungkyunkwan University (Feb 2021 - Present)</p>
@@ -30,7 +30,7 @@ export default function Home() {
             <p>GPA: 3.63 / 4.5</p>
           </div>
           <div>
-            <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Education</h2>
+            <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Experience</h2>
             <p className="font-medium font-semibold">SKKU Tutoring Program (Mar - Jun 2025)</p>
             <p className="mb-2">Provided one-on-one tutoring for the Java Programming Lab course.</p>
 
