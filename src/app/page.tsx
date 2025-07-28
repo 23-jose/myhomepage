@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="bg-[#2E2E2E] text-white min-h-screen">
       <NavBar></NavBar>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-25 px-4 sm:px-8 md:px-16 max-w-6xl mx-auto py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-25 px-4 sm:px-8 md:px-16 max-w-6xl mx-auto py-10">
         <div className="flex flex-col">
           <img
             src="/photo.png"
@@ -25,16 +25,16 @@ export default function Home() {
         <div className="flex flex-col gap-7 text-base">
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Education</h2>
-            <p className="font-medium font-semibold">Sungkyunkwan University (Feb 2021 - Present)</p>
+            <p className="font-medium font-semibold">Sungkyunkwan University (Feb. 2021 - Present)</p>
             <p>B.Sc. in Computer Science and Engineering</p>
             <p>GPA: 3.63 / 4.5</p>
           </div>
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Experience</h2>
-            <p className="font-medium font-semibold">SKKU Tutoring Program (Mar - Jun 2025)</p>
+            <p className="font-medium font-semibold">SKKU Tutoring Program (Mar. - Jun. 2025)</p>
             <p className="mb-2">Provided one-on-one tutoring for the Java Programming Lab course.</p>
 
-            <p className="font-medium font-semibold">HLILab Summer Internship (Jul 2025 - Present)</p>
+            <p className="font-medium font-semibold">HLILab Summer Internship (Jul. 2025 - Present)</p>
             <p>Working on the Cultural Values of LLMs research project.</p>
           </div>
           <div>
@@ -60,7 +60,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
-                ><FaGithub /> Hallyu-Go (Sep - Dec 2024)
+                ><FaGithub /> Hallyu-Go (Sep. - Dec. 2024)
                 </a>
               </p>
               <p>
@@ -74,7 +74,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
-                ><FaGithub /> PoW vs. PoS (Dec 2024)
+                ><FaGithub /> PoW vs. PoS (Dec. 2024)
                 </a>
               </p>
               <p>
@@ -88,7 +88,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
-                ><FaGithub /> Anonymous ACL Submission (Nov 2023)
+                ><FaGithub /> Anonymous ACL Submission (Nov. 2023)
                 </a>
               </p>
               <p>
