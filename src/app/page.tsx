@@ -22,7 +22,7 @@ export default function Home() {
             >HLILab</a>.
           </p>
         </div>
-        <div className="flex flex-col md:gap-7 text-base">
+        <div className="flex flex-col gap-7 text-base">
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Education</h2>
             <p className="font-medium font-semibold">Sungkyunkwan University (Feb 2021 - Present)</p>
