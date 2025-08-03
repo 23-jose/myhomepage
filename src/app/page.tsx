@@ -31,11 +31,11 @@ export default function Home() {
           </div>
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Experience</h2>
-            <p className="font-medium font-semibold">SKKU Tutoring Program (Mar. - Jun. 2025)</p>
-            <p className="mb-2">Provided one-on-one tutoring for the Java Programming Lab course.</p>
-
             <p className="font-medium font-semibold">HLILab Summer Internship (Jul. 2025 - Present)</p>
-            <p>Working on the Cultural Values of LLMs research project.</p>
+            <p className="mb-2">Working on the Cultural Values of LLMs research project.</p>
+
+            <p className="font-medium font-semibold">SKKU Tutoring Program (Mar. - Jun. 2025)</p>
+            <p>Provided one-on-one tutoring for the Java Programming Lab course.</p>
           </div>
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Projects</h2>
