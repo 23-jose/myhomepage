@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="text-2xl font-semibold mt-3 mb-5">José Antunes - 호세 안툰스</h1>
           <p className="text-lg">Sungkyunkwan University</p>
           <p className="text-lg flex items-center mb-5">josemiguel@g.skku.edu</p>
-          <p className="text-base leading-relaxed">I am a Portuguese international student at Sungkyunkwan University, pursuing an undergraduate degree in Computer Science and Engineering. I am interested in web development, blockchain technologies, and AI, but I am still exploring different areas of interest. Currently an intern at {" "}
+          <p className="text-base leading-relaxed">I am a Portuguese international student at Sungkyunkwan University, pursuing an undergraduate degree in Computer Science and Engineering. I am interested in web development, blockchain technologies, and biases in LLMs, but I am also exploring other areas of interest. Currently working as an intern at {" "}
             <a 
               className="text-[#FFD900] hover:underline"
               href="https://hli.skku.edu"
@@ -27,12 +27,15 @@ export default function Home() {
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Education</h2>
             <p className="font-medium font-semibold">Sungkyunkwan University (Feb. 2021 - Present)</p>
             <p>B.Sc. in Computer Science and Engineering</p>
-            <p>GPA: 3.63 / 4.5</p>
+            <p>GPA: 3.66 / 4.5</p>
           </div>
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Experience</h2>
-            <p className="font-medium font-semibold">HLILab Summer Internship (Jul. 2025 - Present)</p>
-            <p className="mb-2">Working on the Cultural Values of LLMs research project.</p>
+            <p className="font-medium font-semibold">HLILab Internship (Sep. 2025 - Present)</p>
+            <p className="mb-2">Researching gender and cultural biases in LLMs.</p>
+
+            <p className="font-medium font-semibold">HLILab Summer Internship (Jul. - Aug. 2025)</p>
+            <p className="mb-2">Worked on the Cultural Values of LLMs research project.</p>
 
             <p className="font-medium font-semibold">SKKU Tutoring Program (Mar. - Jun. 2025)</p>
             <p>Provided one-on-one tutoring for the Java Programming Lab course.</p>
