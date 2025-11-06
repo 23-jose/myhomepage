@@ -9,11 +9,11 @@ export default function Home() {
         <div className="flex flex-col">
           <img
             src="/photo.png"
-            className="w-full max-w-[200px] h-auto object-cover mt-5"/>
-          <h1 className="text-2xl font-semibold mt-3 mb-5">José Antunes - 호세 안툰스</h1>
+            className="w-full max-w-[200px] h-auto object-cover mt-3"/>
+          <h1 className="text-2xl font-semibold mt-5 mb-1">José Antunes - 호세 안툰스</h1>
           <p className="text-lg">Sungkyunkwan University</p>
           <p className="text-lg flex items-center mb-5">josemiguel@g.skku.edu</p>
-          <p className="text-base leading-relaxed">I am a Portuguese international student at Sungkyunkwan University, pursuing an undergraduate degree in Computer Science and Engineering. I am interested in web development, blockchain technologies, and biases in LLMs, but I am also exploring other areas of interest. Currently working as an intern at {" "}
+          <p className="text-base leading-relaxed">I am a Portuguese international student at Sungkyunkwan University, pursuing an undergraduate degree in Computer Science and Engineering. I am interested in web development, blockchain technologies, and researching biases in large language models. I am currently working as an intern at {" "}
             <a 
               className="text-[#FFD900] hover:underline"
               href="https://hli.skku.edu"
@@ -25,14 +25,17 @@ export default function Home() {
         <div className="flex flex-col gap-7 text-base">
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Education</h2>
-            <p className="font-medium font-semibold">Sungkyunkwan University (Feb. 2021 - Present)</p>
+            <p className="font-medium font-semibold">Sungkyunkwan University (Feb. 2021 - Feb. 2026)</p>
             <p>B.Sc. in Computer Science and Engineering</p>
-            <p>GPA: 3.66 / 4.5</p>
+            <p>GPA: 3.63 / 4.5</p>
           </div>
           <div>
             <h2 className="text-xl font-semibold mb-2 text-[#FFD900]">Experience</h2>
-            <p className="font-medium font-semibold">HLILab Internship (Sep. 2025 - Present)</p>
-            <p className="mb-2">Researching gender and cultural biases in LLMs.</p>
+            <p className="font-medium font-semibold">HLILab Internship (Sep. 2025 - Feb. 2026)</p>
+            <p className="mb-2">Researched gender and cultural biases in LLMs.</p>
+
+            <p className="font-medium font-semibold">Undergraduate Teaching Assistant (Sep. - Dec. 2025)</p>
+            <p className="mb-2">Participated as a teaching assistant in the Open Source Software Practice course</p>
 
             <p className="font-medium font-semibold">HLILab Summer Internship (Jul. - Aug. 2025)</p>
             <p className="mb-2">Worked on the Cultural Values of LLMs research project.</p>
@@ -49,11 +52,11 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
-                ><FaGithub /> BV - Blockchain Visualiser (Ongoing)
+                ><FaGithub /> BV - Blockchain Visualiser (Mar. - Nov. 2025)
                 </a>
               </p>
               <p>
-                Created a platform for accessing Bitcoin and Ethereum transaction data and estimating energy consumption.
+                Created a platform for accessing Bitcoin and Ethereum transaction and environmental impact data.
               </p>
             </div>
             <div className="mb-2">
@@ -63,11 +66,11 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-[#FFD900] hover:underline font-semibold"
-                ><FaGithub /> Hallyu-Go (Sep. - Dec. 2024)
+                ><FaGithub /> HallyuGo (Sep. - Dec. 2024)
                 </a>
               </p>
               <p>
-                Created a guide map application for travels exploring Korean pop culture hotspots.
+                Created a guide map application for travelers exploring Korean pop-culture hotspots.
               </p>
             </div>
             <div className="mb-2">
@@ -81,7 +84,7 @@ export default function Home() {
                 </a>
               </p>
               <p>
-                Compared blockchain energy usage by analyzing CPU, memory, disk, and network traffic metrics.
+                Compared Bitcoin and Ethereum's energy usage by analyzing CPU, memory, disk, and network traffic metrics.
               </p>
             </div>
             <div className="mb-2">
