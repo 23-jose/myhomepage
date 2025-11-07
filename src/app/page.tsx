@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import NavBar from "../../components/NavBar";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,9 +8,9 @@ export default function Home() {
       <NavBar></NavBar>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-25 px-4 sm:px-8 md:px-16 max-w-6xl mx-auto py-10">
         <div className="flex flex-col">
-          <img
-            src="/photo.png"
-            className="w-full max-w-[200px] h-auto object-cover mt-3"/>
+          <div className="w-full max-w-[200px] h-auto object-cover mt-3">
+              <Image src="/photo.png" alt="myPhoto" />
+          </div> 
           <h1 className="text-2xl font-semibold mt-5 mb-1">José Antunes - 호세 안툰스</h1>
           <p className="text-lg">Sungkyunkwan University</p>
           <p className="text-lg flex items-center mb-5">josemiguel@g.skku.edu</p>
@@ -84,7 +85,7 @@ export default function Home() {
                 </a>
               </p>
               <p>
-                Compared Bitcoin and Ethereum's energy usage by analyzing CPU, memory, disk, and network traffic metrics.
+                Compared Bitcoin and Ethereum&apos;s energy usage by analyzing CPU, memory, disk, and network traffic metrics.
               </p>
             </div>
             <div className="mb-2">
